@@ -42,13 +42,8 @@ Allocations move linearly forward using an offset.
 Compile using gcc:
 
 ```bash
-gcc main.c utils.c -o vector
-```
-
-Run:
-
-```bash
-./vector
+make # to compile and run normally
+make fall # to compile and run but with more safety using sanitizers
 ```
 
 ## Example
