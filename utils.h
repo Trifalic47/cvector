@@ -9,7 +9,6 @@ typedef struct {
     size_t capacity;
 } Vector;
 
-/* Currently not using it but in the further upgrades it would be nicer*/
 typedef enum {
     integer = sizeof(int),
     character = sizeof(char),

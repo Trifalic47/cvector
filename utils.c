@@ -1,7 +1,7 @@
 #include "utils.h"
 
-/* Initializing the vector */
 void * vector_init (int idx){
+/* Initializing the vector */
     Vector *v = malloc(sizeof(Vector));
     if (!v) {
         fprintf(stderr,"Malloc Failed on allocating space for Vector struct!");
