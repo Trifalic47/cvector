@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -g
 
 TARGET = app
-SRC = main.c utils.c
+SRC = test.c utils.c
 
 all:
 	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)

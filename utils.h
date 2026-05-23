@@ -1,3 +1,8 @@
+/*
+* Dynamic memory allocator using C
+* Owner - Trifalic47. [There are other contributors too]
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
